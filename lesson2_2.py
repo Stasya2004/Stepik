@@ -25,12 +25,10 @@ try:
 
     input1 = browser.find_element(By.CSS_SELECTOR, "[id='answer']")
     input1.send_keys(y)
-   
     option1 = browser.find_element(By.CSS_SELECTOR, "[for='robotCheckbox']")
     option1.click()
     option2 = browser.find_element(By.CSS_SELECTOR, "[for='robotsRule']")
     option2.click()
-
     button2 = browser.find_element(By.CSS_SELECTOR, "[type = 'submit']") #Почему-то не работает последняя кнопка
     button2.click()
 
